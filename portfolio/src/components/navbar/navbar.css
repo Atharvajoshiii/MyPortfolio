@@ -1,0 +1,44 @@
+/* Navbar styles */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Salsa&family=Sevillana&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111111;
+    padding: 20px;
+    height: 20vh;
+  }
+  
+  /* Logo styles */
+  .logo {
+    
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: "Source Code Pro", monospace;
+  }
+  
+  /* List styles */
+  .navbar ul {
+    list-style: none;
+    margin-right: 40px;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+    font-family: "Source Code Pro", monospace;
+  }
+  
+  .navbar li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
